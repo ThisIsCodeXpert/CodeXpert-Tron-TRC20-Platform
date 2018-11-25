@@ -1,0 +1,180 @@
+{
+  "contractName": "SmartContract",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058207a66d12774570fd183fd727e4410f4c0099b49dc71e6f441d5dd20a6b84383320029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058207a66d12774570fd183fd727e4410f4c0099b49dc71e6f441d5dd20a6b84383320029",
+  "sourceMap": "26:101:1:-;;;93:30;8:9:-1;5:2;;;30:1;27;20:12;5:2;93:30:1;26:101;;;;;;",
+  "deployedSourceMap": "26:101:1:-;;;;;",
+  "source": "pragma solidity ^0.4.20;\n\ncontract SmartContract{\n\n    //Write your smart contract here\n\n    constructor () public {\n\n    }\n\n\n}",
+  "sourcePath": "/Users/krishnakulkarni/Documents/CodeXpert/GIT/CodeXpert-Tron-DApp-Template/contracts/SmartContract.sol",
+  "ast": {
+    "absolutePath": "/Users/krishnakulkarni/Documents/CodeXpert/GIT/CodeXpert-Tron-DApp-Template/contracts/SmartContract.sol",
+    "exportedSymbols": {
+      "SmartContract": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".20"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "SmartContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "115:8:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "115:0:1"
+            },
+            "scope": 63,
+            "src": "93:30:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:101:1"
+      }
+    ],
+    "src": "0:127:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/krishnakulkarni/Documents/CodeXpert/GIT/CodeXpert-Tron-DApp-Template/contracts/SmartContract.sol",
+    "exportedSymbols": {
+      "SmartContract": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".20"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "SmartContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "115:8:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "115:0:1"
+            },
+            "scope": 63,
+            "src": "93:30:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:101:1"
+      }
+    ],
+    "src": "0:127:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24-develop.2018.8.28+commit.3ba0cdec.mod.Emscripten.clang"
+  },
+  "networks": {
+    "*": {
+      "events": {},
+      "links": {},
+      "address": "4122b04f6f5fe256b8ba3593328556f2a9c85df73d"
+    }
+  },
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-11-25T06:08:10.149Z"
+}
