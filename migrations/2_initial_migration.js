@@ -1,5 +1,7 @@
-var SmartContract = artifacts.require("./SmartContract.sol");
+var TRC20 = artifacts.require("./TRC20.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(SmartContract);
+
+  deployer.deploy(TRC20);
+
 };

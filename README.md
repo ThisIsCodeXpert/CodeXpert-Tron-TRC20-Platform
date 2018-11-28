@@ -1,9 +1,4 @@
-# Tron DApp Template
-
-
-> For more details, checkout video tutorial series -
-
-> Best Tron (TRX) DApp Tutorial Series for Beginners : https://www.youtube.com/playlist?list=PLL5pYVd8AWtRDnTTKWzPpFcBT9nrPCQt6
+# CodeXpert Tron (TRX) TRC20 Platform
 
 ------------------------
 
@@ -31,6 +26,6 @@ $ yarn
 $ yarn start
 ```
 
-checkout your  dapp at http://localhost:3000/
+checkout the platform at http://localhost:3000/
 
 ------------------------

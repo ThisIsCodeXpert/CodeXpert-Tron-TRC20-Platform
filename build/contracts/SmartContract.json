@@ -8,24 +8,24 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058207a66d12774570fd183fd727e4410f4c0099b49dc71e6f441d5dd20a6b84383320029",
-  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058207a66d12774570fd183fd727e4410f4c0099b49dc71e6f441d5dd20a6b84383320029",
-  "sourceMap": "26:101:1:-;;;93:30;8:9:-1;5:2;;;30:1;27;20:12;5:2;93:30:1;26:101;;;;;;",
-  "deployedSourceMap": "26:101:1:-;;;;;",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820e06fb86daf17850fa6b9abde770bda3ae2c0edc0745ce3b54dde324037da41da0029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820e06fb86daf17850fa6b9abde770bda3ae2c0edc0745ce3b54dde324037da41da0029",
+  "sourceMap": "26:101:3:-;;;93:30;8:9:-1;5:2;;;30:1;27;20:12;5:2;93:30:3;26:101;;;;;;",
+  "deployedSourceMap": "26:101:3:-;;;;;",
   "source": "pragma solidity ^0.4.20;\n\ncontract SmartContract{\n\n    //Write your smart contract here\n\n    constructor () public {\n\n    }\n\n\n}",
-  "sourcePath": "/Users/krishnakulkarni/Documents/CodeXpert/GIT/CodeXpert-Tron-DApp-Template/contracts/SmartContract.sol",
+  "sourcePath": "/Users/krishnakulkarni/Documents/CodeXpert/GIT_test/Tron_TRC20/CodeXpert-Tron-DApp-Template/contracts/SmartContract.sol",
   "ast": {
-    "absolutePath": "/Users/krishnakulkarni/Documents/CodeXpert/GIT/CodeXpert-Tron-DApp-Template/contracts/SmartContract.sol",
+    "absolutePath": "/Users/krishnakulkarni/Documents/CodeXpert/GIT_test/Tron_TRC20/CodeXpert-Tron-DApp-Template/contracts/SmartContract.sol",
     "exportedSymbols": {
       "SmartContract": [
-        63
+        260
       ]
     },
-    "id": 64,
+    "id": 261,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 58,
+        "id": 255,
         "literals": [
           "solidity",
           "^",
@@ -33,7 +33,7 @@
           ".20"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:1"
+        "src": "0:24:3"
       },
       {
         "baseContracts": [],
@@ -41,22 +41,22 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 63,
+        "id": 260,
         "linearizedBaseContracts": [
-          63
+          260
         ],
         "name": "SmartContract",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 61,
+              "id": 258,
               "nodeType": "Block",
-              "src": "115:8:1",
+              "src": "115:8:3",
               "statements": []
             },
             "documentation": null,
-            "id": 62,
+            "id": 259,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -64,43 +64,43 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 59,
+              "id": 256,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "105:2:1"
+              "src": "105:2:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 60,
+              "id": 257,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "115:0:1"
+              "src": "115:0:3"
             },
-            "scope": 63,
-            "src": "93:30:1",
+            "scope": 260,
+            "src": "93:30:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 64,
-        "src": "26:101:1"
+        "scope": 261,
+        "src": "26:101:3"
       }
     ],
-    "src": "0:127:1"
+    "src": "0:127:3"
   },
   "legacyAST": {
-    "absolutePath": "/Users/krishnakulkarni/Documents/CodeXpert/GIT/CodeXpert-Tron-DApp-Template/contracts/SmartContract.sol",
+    "absolutePath": "/Users/krishnakulkarni/Documents/CodeXpert/GIT_test/Tron_TRC20/CodeXpert-Tron-DApp-Template/contracts/SmartContract.sol",
     "exportedSymbols": {
       "SmartContract": [
-        63
+        260
       ]
     },
-    "id": 64,
+    "id": 261,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 58,
+        "id": 255,
         "literals": [
           "solidity",
           "^",
@@ -108,7 +108,7 @@
           ".20"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:1"
+        "src": "0:24:3"
       },
       {
         "baseContracts": [],
@@ -116,22 +116,22 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 63,
+        "id": 260,
         "linearizedBaseContracts": [
-          63
+          260
         ],
         "name": "SmartContract",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 61,
+              "id": 258,
               "nodeType": "Block",
-              "src": "115:8:1",
+              "src": "115:8:3",
               "statements": []
             },
             "documentation": null,
-            "id": 62,
+            "id": 259,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -139,30 +139,30 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 59,
+              "id": 256,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "105:2:1"
+              "src": "105:2:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 60,
+              "id": 257,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "115:0:1"
+              "src": "115:0:3"
             },
-            "scope": 63,
-            "src": "93:30:1",
+            "scope": 260,
+            "src": "93:30:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 64,
-        "src": "26:101:1"
+        "scope": 261,
+        "src": "26:101:3"
       }
     ],
-    "src": "0:127:1"
+    "src": "0:127:3"
   },
   "compiler": {
     "name": "solc",
@@ -176,5 +176,5 @@
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-11-25T06:08:10.149Z"
+  "updatedAt": "2018-11-25T07:55:50.318Z"
 }
