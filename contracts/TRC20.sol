@@ -28,8 +28,8 @@ contract TRC20 {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     uint256 initialSupply = 1000000;
-    string tokenName = 'CodeXpertToken';
-    string tokenSymbol = 'CDX';
+    string tokenName = 'Тether USD';
+    string tokenSymbol = 'USDТ';
     constructor() public {
 
         totalSupply = initialSupply * 10 ** uint256(decimals);  // Update total supply with the decimal amount
